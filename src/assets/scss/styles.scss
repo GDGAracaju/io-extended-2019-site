@@ -1,0 +1,39 @@
+@import './settings.scss';
+@import 'bulma-timeline/src/sass/index.sass';
+
+.title, .button, .navbar-item{
+  font-family: 'Product Sans', sans-serif;
+}
+
+.navbar-item{
+  &:hover{
+    background: none !important;
+  }
+}
+
+
+#home{
+  background: url(../images/dec-3.png) 80% 80% / 200px no-repeat;
+}
+
+#sobre{
+  background: url(../images/dec-2.png) 80% 80% / 100px no-repeat;
+}
+
+#palestrantes .container{
+  background: url(../images/dec-1.png) 100% 0 / 100px no-repeat;
+}
+
+#local{
+  background: rgba(0, 0, 0, 0.5) url(../images/sergipetec2.jpeg) center center / cover no-repeat fixed;
+  background-blend-mode: overlay;
+  .box{
+    width: 350px;
+    position: absolute;
+    right: 0;
+    @media(max-width: $tablet){
+      position: relative;
+      width: 100%;
+    }
+  }
+}

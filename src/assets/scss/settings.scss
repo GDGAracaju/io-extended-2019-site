@@ -1,0 +1,52 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+
+@font-face{
+  font-family: 'Product Sans', sans-serif;
+  src: url('../fonts/Product\ Sans\ Regular.ttf');
+  font-weight: normal;
+}
+
+@font-face{
+  font-family: 'Product Sans', sans-serif;
+  src: url('../fonts/Product\ Sans\ Bold.ttf');
+  font-weight: bold;
+}
+
+@font-face{
+  font-family: 'Product Sans', sans-serif;
+  src: url('../fonts/Product\ Sans\ Italic.ttf');
+  font-weight: normal;
+  font-style: italic;
+}
+
+// Set your brand colors
+$pink: #FA7C91;
+$red: rgb(228, 68, 62);
+$brown: #757763;
+$green: rgb(50,166,81);
+$blue: rgb(65, 132, 243);
+$yellow: rgb(250, 187, 6);
+$beige-light: #D0D1CD;
+$beige-lighter: #EFF0EB;
+
+// Update Bulma's global variables
+$family-sans-serif: "Roboto", sans-serif;
+$grey-dark: $brown;
+$grey-light: $beige-light;
+$black: #333;
+$primary: $blue;
+$success: $green;
+$info: $blue;
+$danger: $red;
+$warning: $yellow;
+$link: $blue;
+
+// Update some of Bulma's component variables
+$control-border-width: 2px;
+$input-background-color: $beige-lighter;
+$input-border-color: transparent;
+$input-shadow: none;
+
+// Import the rest of Bulma
+@import "bulma/bulma.sass";
