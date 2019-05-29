@@ -156,3 +156,11 @@ export const programacao = [
 ];
 
 export const linkInscricao = "http://google.com";
+export const links = {
+  facebook: "",
+  instagram: "",
+  telegram: "",
+  whatsapp: "",
+  meetup: "",
+  medium: "" 
+}

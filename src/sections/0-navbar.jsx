@@ -7,6 +7,8 @@ function Navbar() {
   window.addEventListener("scroll", () => {
     setIsFixed(window.pageYOffset > window.innerHeight - 300)
   });
+
+  
   return (
     <nav className={`navbar is-white ${isFixed && "is-fixed-top"}`} style={{background: "white", boxShadow: isFixed && '0 2px 4px 1px rgba(0,0,0,0.1)' }}>
       <div className="container">

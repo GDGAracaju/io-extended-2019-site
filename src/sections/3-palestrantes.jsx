@@ -45,7 +45,7 @@ function Palestrantes() {
                   <br />
                   <div className="tags is-centered">
                     {pessoa.areas.map( area => (
-                      <div className={`tag is-small ${colors[area]}`}>{area}</div>
+                      <div className={`tag is-small ${colors[area]}`}>{area.toLocaleUpperCase()}</div>
                     ))}
 
                   </div>
