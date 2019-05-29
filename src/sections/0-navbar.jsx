@@ -13,15 +13,12 @@ function Navbar() {
     <nav className={`navbar is-white ${isFixed && "is-fixed-top"}`} style={{background: "white", boxShadow: isFixed && '0 2px 4px 1px rgba(0,0,0,0.1)' }}>
       <div className="container">
         <div className="navbar-brand">
-          <a href="#" className="navbar-item">
+          <a href="#home" className="navbar-item">
             <img src={require("../assets/images/gdg-aracaju.png")} alt="" />
           </a>
         </div>
         <div className="navbar-menu">
           <div className="navbar-end">
-            <a className="navbar-item" href="#inicio">
-              Inicio
-            </a>
             <a className="navbar-item" href="#sobre">
               Sobre
             </a>

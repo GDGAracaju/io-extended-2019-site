@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 
 import { programacao } from "../data";
 
 function Palestrantes() {
+  const [width, setWidth] = useState(window.innerWidth);
+
+  window.addEventListener('resize', ()=> setWidth(window.innerWidth) )
   return (
     <section className="home hero is-fullheight is-white">
       <div className="hero-body">
@@ -18,7 +21,7 @@ function Palestrantes() {
           {/* items */}
           <div className="columns is-multiline">
             <div className="column is-centered">
-              <div class="timeline is-centered">
+              <div class={`timeline ${width > 900 && 'is-centered'}`}>
                 {programacao.map(p =>
                   p.break ? (
                     <header class="timeline-header" style={{ padding: '0 50px'}}>

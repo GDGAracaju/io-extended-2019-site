@@ -155,12 +155,12 @@ export const programacao = [
   }
 ];
 
-export const linkInscricao = "http://google.com";
+export const linkInscricao = "https://www.sympla.com.br/io-extended-aracaju__540962";
 export const links = {
-  facebook: "",
-  instagram: "",
-  telegram: "",
-  whatsapp: "",
-  meetup: "",
-  medium: "" 
+  facebook: "http://fb.com/gdgaracaju",
+  instagram: "http://instagram.com/gdgaracaju",
+  telegram: "https://t.me/gdgaracaju",
+  whatsapp: "https://chat.whatsapp.com/4qU6ouV0HzjJUhBAPIaKSo",
+  meetup: "https://www.meetup.com/gdgaracaju/",
+  medium: "http://medium.com/gdg-aracaju" 
 }

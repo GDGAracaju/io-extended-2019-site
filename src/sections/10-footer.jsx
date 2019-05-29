@@ -1,5 +1,7 @@
 import React from "react";
 
+import { links } from '../data'
+
 function Footer(params) {
   return (
     <footer class="footer">
@@ -20,22 +22,32 @@ function Footer(params) {
             <div className="column has-text-right">
               <div className="columns is-pulled-right">
                 <div className="column is-narrow">
-                  <a href="" className="button is-text is-outlined">
+                  <a href={links.meetup} className="button is-text is-outlined" target="_blank">
                     Meetup
                   </a>
                 </div>
                 <div className="column is-narrow">
-                  <a href="" className="button is-text is-outlined">
+                  <a href={links.medium} className="button is-text is-outlined" target="_blank">
+                    Medium
+                  </a>
+                </div>
+                <div className="column is-narrow">
+                  <a href={links.facebook} className="button is-text is-outlined" target="_blank">
                     Facebook
                   </a>
                 </div>
                 <div className="column is-narrow">
-                  <a href="" className="button is-text is-outlined">
+                  <a href={links.instagram} className="button is-text is-outlined" target="_blank">
+                    Instagram
+                  </a>
+                </div>
+                <div className="column is-narrow">
+                  <a href={links.telegram} className="button is-text is-outlined" target="_blank">
                     Telegram
                   </a>
                 </div>
                 <div className="column is-narrow">
-                  <a href="" className="button is-text is-outlined is-success">
+                  <a href={links.whatsapp} className="button is-text is-outlined is-success" target="_blank">
                     WhatsApp
                   </a>
                 </div>
