@@ -1,7 +1,5 @@
 import React from "react";
 
-import { palestrantes } from "../data";
-
 const parceiros = [
   {
     image: "http://sergipetec.org.br/wp-content/uploads/2016/04/sergipetec300x140.png",
@@ -24,14 +22,30 @@ const parceiros = [
     url: "https://www.uninassau.edu.br/"
   },
   {
-    image: "https://git.dcomp.ufs.br/uploads/-/system/appearance/logo/1/LOGOTIPO_ORIGINAL_RETANGULAR.png",
+    image:
+      "https://git.dcomp.ufs.br/uploads/-/system/appearance/logo/1/LOGOTIPO_ORIGINAL_RETANGULAR.png",
     url: "http://computacao.ufs.br"
   },
   {
     image: "http://erbase.sbc.org.br/2018/img/logo_ufs.png",
     url: "http://ufs.br"
+  },
+  {
+    image: "https://cio-se.org.br/wp-content/uploads/2018/05/logo.jpg",
+    url: "https://cio-se.org.br/"
+  },
+  {
+    image:
+      "http://www.ifs.edu.br/comunicacao/images/Imagens/Marcas/IFS_puro/Marca_IFS_vertical-01.png",
+    url: "http://www.ifs.edu.br"
+  },
+  {
+    image: "http://www.wtr.pop-se.rnp.br/wp-content/uploads/2017/09/LogoBK.jpg",
+    url: "http://www.bktelecomunicacoes.com.br/"
   }
 ];
+
+const apoiadores = [];
 
 function Parceiros() {
   return (
@@ -49,8 +63,19 @@ function Parceiros() {
           {/* items */}
           <div className="columns is-centered is-multiline">
             {parceiros.map(parceiro => (
-              <a href={parceiro.url} target="_blank" rel="noref" className="column is-3 has-text-centered">
-                <div style={{ height: 100, margin: '40px 20px', background: `url(${parceiro.image}) center center / contain no-repeat`  }}></div>
+              <a
+                href={parceiro.url}
+                target="_blank"
+                rel="noref"
+                className="column is-3 has-text-centered"
+              >
+                <div
+                  style={{
+                    height: 100,
+                    margin: "40px 20px",
+                    background: `url(${parceiro.image}) center center / contain no-repeat`
+                  }}
+                />
               </a>
             ))}
           </div>

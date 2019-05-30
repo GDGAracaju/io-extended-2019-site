@@ -1,0 +1,4 @@
+deploy:
+  provider: surge
+  project: ./build/
+  domain: io.gdgaracaju.com.br

@@ -64,7 +64,7 @@
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js",
-    "deploy": "surge --project=./build --domain=io-extended-aracaju-2019.surge.sh",
+    "deploy": "surge --project=./build --domain=io.gdgaracaju.com.br",
     "predeploy": "npm run build"
   },
   "eslintConfig": {

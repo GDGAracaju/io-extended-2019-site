@@ -1,6 +1,5 @@
 import React from "react";
 
-import Navbar from "./0-navbar";
 import { links } from "../data";
 
 function Sobre() {
