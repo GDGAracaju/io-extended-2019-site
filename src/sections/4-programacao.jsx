@@ -14,7 +14,6 @@ function Palestrantes() {
           <div className="columns">
             <div className="column is-full has-text-centered">
               <h1 className="title is-2 has-text-weight-light">Programação</h1>
-              <div className="subtitle">O que vai rolar</div>
             </div>
           </div>
 

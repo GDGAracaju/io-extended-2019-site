@@ -3,10 +3,10 @@ import React from "react";
 import { palestrantes } from "../data";
 
 const colors = {
-  web: 'is-danger',
-  ia: 'is-warning',
-  android: 'is-success',
-  iot: 'is-info'
+  Web: 'is-danger',
+  IA: 'is-warning',
+  Android: 'is-success',
+  IOT: 'is-info'
 };
 
 function Palestrantes() {
@@ -45,7 +45,7 @@ function Palestrantes() {
                   <br />
                   <div className="tags is-centered">
                     {pessoa.areas.map( area => (
-                      <div className={`tag is-small ${colors[area]}`}>{area.toLocaleUpperCase()}</div>
+                      <div className={`tag is-small ${colors[area]}`}>{area}</div>
                     ))}
 
                   </div>
