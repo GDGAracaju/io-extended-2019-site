@@ -26,6 +26,10 @@ const parceiros = [
   {
     image: "https://git.dcomp.ufs.br/uploads/-/system/appearance/logo/1/LOGOTIPO_ORIGINAL_RETANGULAR.png",
     url: "http://computacao.ufs.br"
+  },
+  {
+    image: "http://erbase.sbc.org.br/2018/img/logo_ufs.png",
+    url: "http://ufs.br"
   }
 ];
 

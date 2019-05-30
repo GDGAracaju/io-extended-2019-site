@@ -16,12 +16,12 @@ function Sobre() {
               <div className="h1 title is-3 has-text-weight-light">Sobre o Google IO Extended</div>
               <div className="content">
                 <p>
-                  Alterar o texto da seção Sobre o Google I/O Extended para: O Google I/O é um
+                  O Google I/O é um
                   evento anual realizado pelo Google para anunciar suas novidades para o mundo. Este
                   ano o evento aconteceu em Maio na Califórnia. Mas, para que todos possam tenham
                   acesso um pouco deste evento, ao redor do mundo são realizadas as versões
-                  Extendeds. Em Sergipe ocorrerá no dia 15 de Junho no auditório do Sergipe Parque
-                  Tecnológico (SergipeTec) onde serão ministradas palestras por GDEs (Google
+                  Extendeds. Em Sergipe ocorrerá no dia <b>15 de Junho no auditório do Sergipe Parque
+                  Tecnológico (SergipeTec)</b> onde serão ministradas palestras por GDEs (Google
                   Developers Experts) e por profissionais de Sergipe com sorteio de brindes. O
                   evento é gratuito e além de ser um momento de agregar conhecimento na área de
                   tecnologias do Google, promoverá momentos de interação entre estudantes e
