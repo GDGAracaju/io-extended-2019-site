@@ -39,13 +39,15 @@ const parceiros = [
       "http://www.ifs.edu.br/comunicacao/images/Imagens/Marcas/IFS_puro/Marca_IFS_vertical-01.png",
     url: "http://www.ifs.edu.br"
   },
+  
+];
+
+const apoiadores = [
   {
     image: "http://www.wtr.pop-se.rnp.br/wp-content/uploads/2017/09/LogoBK.jpg",
     url: "http://www.bktelecomunicacoes.com.br/"
   }
 ];
-
-const apoiadores = [];
 
 function Parceiros() {
   return (
@@ -54,9 +56,9 @@ function Parceiros() {
         <div className="container">
           {/* title */}
           <div className="columns">
-            <div className="column is-full has-text-right">
+            <div className="column is-full has-text-centered">
               <h1 className="title is-2 has-text-weight-light">Parceiros</h1>
-              <div className="subtitle">Quem tornou este evento possivel</div>
+              <div className="subtitle">Quem tornou este evento possível</div>
             </div>
           </div>
 
@@ -66,8 +68,8 @@ function Parceiros() {
               <a
                 href={parceiro.url}
                 target="_blank"
-                rel="noref"
-                className="column is-3 has-text-centered"
+                rel="noopener noreferrer"
+                className="column is-one-fifth has-text-centered"
               >
                 <div
                   style={{
@@ -79,6 +81,38 @@ function Parceiros() {
               </a>
             ))}
           </div>
+
+          {/* title */}
+          <div className="columns">
+            <div className="column is-full has-text-centered">
+              <h1 className="title is-2 has-text-weight-light">Apoiadores</h1>
+              <div className="subtitle">Quem contribuiu com recursos</div>
+            </div>
+          </div>
+
+          {/* items */}
+          <div className="columns is-centered is-multiline">
+            {apoiadores.map(parceiro => (
+              <a
+                href={parceiro.url}
+                rel="noopener noreferrer"
+                target="_blank"
+                className="column  is-one-fifth has-text-centered"
+              >
+                <div
+                  style={{
+                    height: 100,
+                    margin: "40px 20px",
+                    background: `url(${parceiro.image}) center center / contain no-repeat`
+                  }}
+                />
+              </a>
+            ))}
+          </div>
+
+          {/*  */}
+
+
         </div>
       </div>
     </section>

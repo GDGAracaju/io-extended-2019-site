@@ -22,32 +22,32 @@ function Footer(params) {
             <div className="column has-text-right">
               <div className="columns is-pulled-right">
                 <div className="column is-narrow">
-                  <a href={links.meetup} className="button is-text is-outlined" target="_blank">
+                  <a  href={links.meetup} className="button is-text is-outlined" rel="noopener noreferrer" target="_blank">
                     Meetup
                   </a>
                 </div>
                 <div className="column is-narrow">
-                  <a href={links.medium} className="button is-text is-outlined" target="_blank">
+                  <a href={links.medium} className="button is-text is-outlined" rel="noopener noreferrer" target="_blank">
                     Medium
                   </a>
                 </div>
                 <div className="column is-narrow">
-                  <a href={links.facebook} className="button is-text is-outlined" target="_blank">
+                  <a href={links.facebook} className="button is-text is-outlined" rel="noopener noreferrer" target="_blank">
                     Facebook
                   </a>
                 </div>
                 <div className="column is-narrow">
-                  <a href={links.instagram} className="button is-text is-outlined" target="_blank">
+                  <a href={links.instagram} className="button is-text is-outlined" rel="noopener noreferrer" target="_blank">
                     Instagram
                   </a>
                 </div>
                 <div className="column is-narrow">
-                  <a href={links.telegram} className="button is-text is-outlined" target="_blank">
+                  <a href={links.telegram} className="button is-text is-outlined" rel="noopener noreferrer" target="_blank">
                     Telegram
                   </a>
                 </div>
                 <div className="column is-narrow">
-                  <a href={links.whatsapp} className="button is-text is-outlined is-success" target="_blank">
+                  <a href={links.whatsapp} className="button is-text is-outlined is-success" rel="noopener noreferrer" target="_blank">
                     WhatsApp
                   </a>
                 </div>

@@ -13,7 +13,7 @@ function Navbar() {
     <nav className={`navbar is-white ${isFixed && "is-fixed-top"}`} style={{background: "white", boxShadow: isFixed && '0 2px 4px 1px rgba(0,0,0,0.1)' }}>
       <div className="container">
         <div className="navbar-brand">
-          <a href="#home" className="navbar-item">
+          <a href="#home" rel="noopener noreferrer" className="navbar-item">
             <img src={require("../assets/images/gdg-aracaju.png")} alt="" />
           </a>
         </div>
@@ -28,7 +28,7 @@ function Navbar() {
             <a className="navbar-item" href="#programacao">
               Programação
             </a>
-            <a className="navbar-item" href={linkInscricao} target="_blank">
+            <a className="navbar-item" href={linkInscricao} rel="noopener noreferrer" target="_blank">
               <div className="button is-primary">Inscreva-se!</div>
             </a>
           </div>

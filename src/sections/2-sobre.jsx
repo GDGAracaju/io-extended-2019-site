@@ -26,7 +26,7 @@ function Sobre() {
                   tecnologias do Google, promoverá momentos de interação entre estudantes e
                   profissionais da área de TI.
                 </p>
-                <a href={links.meetup} target="_blank" className="button is-primary">
+                <a rel="noopener noreferrer" href={links.meetup} target="_blank" className="button is-primary">
                   Visite nossos próximos eventos
                 </a>
               </div>

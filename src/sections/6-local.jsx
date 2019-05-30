@@ -19,7 +19,7 @@ function Local() {
           {/* items */}
           <div className="columns is-multiline">
             <div className="column is-centered">
-              <a href="https://goo.gl/maps/F24WyLGZPCMjNqhe9" target="_blank" className="box">
+              <a rel="noopener noreferrer" href="https://goo.gl/maps/F24WyLGZPCMjNqhe9" target="_blank" className="box">
                 <div className="content">
                   <b className="has-text-primary">SergipeTec</b> <br />
                   Avenida José Conrado de Araújo, 731 <br />

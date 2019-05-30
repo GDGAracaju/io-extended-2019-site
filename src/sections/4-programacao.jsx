@@ -31,7 +31,7 @@ function Palestrantes() {
                   ) : (
                     <div class="timeline-item" style={{ height: 'auto'}}>
                       <div class="timeline-marker is-image is-64x64">
-                        <img src={p.palestrante.image} />
+                        <img alt={p.titulo} src={p.palestrante.image} />
                       </div>
                       <div class="timeline-content" style={{ padding: '1em 3em'}}>
                         <p class="heading">{p.horario}</p>
