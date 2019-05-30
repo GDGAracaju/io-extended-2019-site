@@ -1,61 +1,5 @@
 export const palestrantes = [
   {
-    id: "jessica",
-    image: require('./assets/images/fotos/jessica.jpg'),
-    nome: "Jéssica Costa",
-    bio: "Formada em Sistemas de Informação pela Universidade Federal de Sergipe, Analista de Desenvolvimento de Sistemas na TOPOS/SERGÁS e GDG Organizer e WTM Ambassador em Aracaju.",
-    url: "",
-    empresa: "",
-    urlEmpresa: "",
-    areas: ["ia"]
-  },
-  {
-    id: "wilson",
-    image: require('./assets/images/fotos/wilson.jpg'),
-    nome: "Wilson",
-    bio: "Entusiasta do desenvolvimento de software desde os 12 anos, atualmente é desenvolvedor mobile na Popcode, onde utiliza principalmente Kotlin/Java e trabalha ativamente com Android, além de atuar como desenvolvedor backend(com Python e Django) nas horas vagas, em projetos paralelos/freelancers.",
-    url: "",
-    empresa: "",
-    urlEmpresa: "",
-    areas: ["android"]
-  },
-  {
-    id: "alex",
-    image: require('./assets/images/fotos/alex.jpg'),
-    nome: "Alex Freire",
-    bio: "Alex,  há 11 anos trabalhando na área tecnológica é formado em desenvolvimento de sistemas e pôs graduando em segurança da informação.",
-    url: "",
-    empresa: "",
-    urlEmpresa: "",
-    areas: ["iot", 'web']
-  },
-  {
-    id: "thiagof",
-    image: require('./assets/images/fotos/thiagof.jpg'),
-    nome: "Thiago Fontes",
-    bio: "Desenvolvedor Fullstack e discente de Engenharia de Computação",
-    url: "",
-    empresa: "",
-    urlEmpresa: "",
-    areas: ["iot"]
-  },
-  {
-    id: "thiagos",
-    image: require('./assets/images/fotos/thiagos.png'),
-    nome: "Thiago dos Santos",
-    bio: "Desenvolvedor Android, curioso sobre Flutter, amante de VFX e jogar uns games legais.",
-    url: "",
-    areas: ["android"]
-  },
-  {
-    id: "caique",
-    image: require('./assets/images/fotos/caique.jpg'),
-    nome: "Caique Oliveira",
-    bio: "Desenvolvedor Android com muito interesse por testes e arquiteturas de projetos, nas horas vagas inventa rolês aleatórios de moto. ",
-    url: "",
-    areas: ["android"]
-  },
-  {
     id: "erick",
     image: require('./assets/images/fotos/erick.png'),
     nome: "Erick Wendell",
@@ -63,7 +7,7 @@ export const palestrantes = [
     url: "",
     empresa: "",
     urlEmpresa: "",
-    areas: ["web"]
+    areas: ["Web"]
   },
   {
     id: "bianca",
@@ -73,7 +17,63 @@ export const palestrantes = [
     url: "",
     empresa: "",
     urlEmpresa: "",
-    areas: ["ia"]
+    areas: ["IA"]
+  },
+  {
+    id: "jessica",
+    image: require('./assets/images/fotos/jessica.jpg'),
+    nome: "Jéssica Costa",
+    bio: "Formada em Sistemas de Informação pela Universidade Federal de Sergipe, Analista de Desenvolvimento de Sistemas na TOPOS/SERGÁS e GDG Organizer e WTM Ambassador em Aracaju.",
+    url: "",
+    empresa: "",
+    urlEmpresa: "",
+    areas: ["IA"]
+  },
+  {
+    id: "wilson",
+    image: require('./assets/images/fotos/wilson.jpg'),
+    nome: "Wilson",
+    bio: "Entusiasta do desenvolvimento de software desde os 12 anos, atualmente é desenvolvedor mobile na Popcode, onde utiliza principalmente Kotlin/Java e trabalha ativamente com Android, além de atuar como desenvolvedor backend(com Python e Django) nas horas vagas, em projetos paralelos/freelancers.",
+    url: "",
+    empresa: "",
+    urlEmpresa: "",
+    areas: ["Android"]
+  },
+  {
+    id: "alex",
+    image: require('./assets/images/fotos/alex.jpg'),
+    nome: "Alex Freire",
+    bio: "Alex,  há 11 anos trabalhando na área tecnológica é formado em desenvolvimento de sistemas e pôs graduando em segurança da informação.",
+    url: "",
+    empresa: "",
+    urlEmpresa: "",
+    areas: ["IOT", 'Web']
+  },
+  {
+    id: "thiagof",
+    image: require('./assets/images/fotos/thiagof.jpg'),
+    nome: "Thiago Fontes",
+    bio: "Desenvolvedor Fullstack e discente de Engenharia de Computação",
+    url: "",
+    empresa: "",
+    urlEmpresa: "",
+    areas: ["IOT"]
+  },
+  {
+    id: "thiagos",
+    image: require('./assets/images/fotos/thiagos.png'),
+    nome: "Thiago dos Santos",
+    bio: "Desenvolvedor Android, curioso sobre Flutter, amante de VFX e jogar uns games legais.",
+    url: "",
+    areas: ["Android"]
+  },
+  {
+    id: "caique",
+    image: require('./assets/images/fotos/caique.jpg'),
+    nome: "Caique Oliveira",
+    bio: "Desenvolvedor Android com muito interesse por testes e arquiteturas de projetos, nas horas vagas inventa rolês aleatórios de moto. ",
+    url: "",
+    areas: ["Android"]
   }
 ];
 
@@ -139,7 +139,7 @@ export const programacao = [
   {
     horario: "16:00",
     titulo: "Building Automated Robots using Puppeteer and Serverless",
-    resumo: "In our lives, we make many repetitive actions, maybe to enter in a web site to view data, register in a database, maybe to register the same item in some time or publish things on facebook repetitive times. In this talk, you can know the facilities to build your own robot, automated and ready to free your time, to focus only on is really important and strategic. We will know the Selenium Web Driver tool, to simulate a user on browser and to make all tasks \"auto magically\"",
+    resumo: "Em nossas vidas, fazemos muitas ações repetitivas, talvez para entrar em um site para visualizar dados, registrar o mesmo item em um banco de dados, publicar coisas no Facebook, etc. Nesta palestra, você pode conhecer as instalações para construir seu próprio robô, automatizado e liberando seu tempo, focar apenas em o que é realmente importante e estratégico. Conheceremos a ferramenta Selenium Web Driver, para simular um usuário no navegador e tornar todas as tarefas \"automagicamente\".",
     palestrante: getPalestrante("erick")
   },
   {
