@@ -1,10 +1,24 @@
 import React from "react";
 
-const parceiros = [
+const realizadores = [
+  {
+    image: require("../assets/images/gdg-aracaju.png"),
+    url: "http://gdgaracaju.com.br"
+  },
+  {
+    image: require("../assets/images/google.webp"),
+    url: "http://google.com/developers"
+  }
+];
+
+const correalizadores = [
   {
     image: "http://sergipetec.org.br/wp-content/uploads/2016/04/sergipetec300x140.png",
     url: "http://sergipetec.org.br/"
-  },
+  }
+];
+
+const parceiros = [
   {
     image: "https://vestibular.unit.br/se/wp-content/uploads/2018/04/logo-1.png",
     url: "http://unit.br"
@@ -38,14 +52,21 @@ const parceiros = [
     image:
       "http://www.ifs.edu.br/comunicacao/images/Imagens/Marcas/IFS_puro/Marca_IFS_vertical-01.png",
     url: "http://www.ifs.edu.br"
-  },
-  
+  }
 ];
 
 const apoiadores = [
   {
     image: "http://www.wtr.pop-se.rnp.br/wp-content/uploads/2017/09/LogoBK.jpg",
     url: "http://www.bktelecomunicacoes.com.br/"
+  },
+  {
+    image: require("../assets/images/chip.jpeg"),
+    url: "https://chipcia.com.br/"
+  },
+  {
+    image: require("../assets/images/getinfo.png"),
+    url: "https://www.getinfo.net.br/"
   }
 ];
 
@@ -54,6 +75,60 @@ function Parceiros() {
     <section id="parceiros" className="home hero is-medium is-white">
       <div className="hero-body">
         <div className="container">
+          {/* title */}
+          <div className="columns">
+            <div className="column is-full has-text-centered">
+              <h1 className="title is-3 has-text-weight-light">Realização</h1>
+            </div>
+          </div>
+
+          {/* items */}
+          <div className="columns is-centered is-multiline">
+            {realizadores.map(parceiro => (
+              <a
+                href={parceiro.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="column is-4 has-text-centered"
+              >
+                <div
+                  style={{
+                    height: 150,
+                    margin: "40px 20px",
+                    background: `url(${parceiro.image}) center center / contain no-repeat`
+                  }}
+                />
+              </a>
+            ))}
+          </div>
+
+          {/* title */}
+          <div className="columns">
+            <div className="column is-full has-text-centered">
+              <h1 className="title is-3 has-text-weight-light">Correalização</h1>
+            </div>
+          </div>
+
+          {/* items */}
+          <div className="columns is-centered is-multiline">
+            {correalizadores.map(parceiro => (
+              <a
+                href={parceiro.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="column is-4 has-text-centered"
+              >
+                <div
+                  style={{
+                    height: 100,
+                    margin: "40px 20px",
+                    background: `url(${parceiro.image}) center center / contain no-repeat`
+                  }}
+                />
+              </a>
+            ))}
+          </div>
+
           {/* title */}
           <div className="columns">
             <div className="column is-full has-text-centered">
@@ -111,8 +186,6 @@ function Parceiros() {
           </div>
 
           {/*  */}
-
-
         </div>
       </div>
     </section>
