@@ -13,51 +13,49 @@ const realizadores = [
 
 const correalizadores = [
   {
-    image: "http://sergipetec.org.br/wp-content/uploads/2016/04/sergipetec300x140.png",
+    image: require("../assets/images/parceiros/sergipetec300x140.png"),
     url: "http://sergipetec.org.br/"
   }
 ];
 
 const parceiros = [
   {
-    image: "https://vestibular.unit.br/se/wp-content/uploads/2018/04/logo-1.png",
+    image: require("../assets/images/parceiros/logo-1.png"),
     url: "http://unit.br"
   },
   {
-    image: "http://processoseletivo.fanese.edu.br/assets/images/logo-fanese-126x134.png",
+    image: require("../assets/images/parceiros/logo-fanese-126x134.png"),
     url: "http://fanese.edu.br"
   },
   {
-    image: "http://portal.estacio.br/img/logo-estacio-horizontal.png",
+    image: require("../assets/images/parceiros/logo-estacio-horizontal.png"),
     url: "http://portal.estacio.br/"
   },
   {
-    image: "https://www.uninassau.edu.br/landpages/nassau/img/layout/logo-small.png",
+    image: require("../assets/images/parceiros/logo-small.png"),
     url: "https://www.uninassau.edu.br/"
   },
   {
-    image:
-      "https://git.dcomp.ufs.br/uploads/-/system/appearance/logo/1/LOGOTIPO_ORIGINAL_RETANGULAR.png",
+    image: require("../assets/images/parceiros/LOGOTIPO_ORIGINAL_RETANGULAR.png"),
     url: "http://computacao.ufs.br"
   },
   {
-    image: "http://erbase.sbc.org.br/2018/img/logo_ufs.png",
+    image: require("../assets/images/parceiros/logo_ufs.png"),
     url: "http://ufs.br"
   },
   {
-    image: "https://cio-se.org.br/wp-content/uploads/2018/05/logo.jpg",
+    image: require("../assets/images/parceiros/logo.jpg"),
     url: "https://cio-se.org.br/"
   },
   {
-    image:
-      "http://www.ifs.edu.br/comunicacao/images/Imagens/Marcas/IFS_puro/Marca_IFS_vertical-01.png",
+    image: require("../assets/images/parceiros/Marca_IFS_vertical-01.png"),
     url: "http://www.ifs.edu.br"
   }
 ];
 
 const apoiadores = [
   {
-    image: "http://www.wtr.pop-se.rnp.br/wp-content/uploads/2017/09/LogoBK.jpg",
+    image: require("../assets/images/parceiros/LogoBK.jpg"),
     url: "http://www.bktelecomunicacoes.com.br/"
   },
   {
