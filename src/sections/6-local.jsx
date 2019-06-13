@@ -7,8 +7,13 @@ function Local() {
         {/* title */}
         <div className="container">
           <div className="columns">
-            <div className="column is-full has-text-left" style={{ paddingTop: 60 }}>
-              <h1 className="title is-2 has-text-weight-light">Onde vai ser?</h1>
+            <div
+              className="column is-full has-text-left"
+              style={{ paddingTop: 60 }}
+            >
+              <h1 className="title is-2 has-text-weight-light">
+                Onde vai ser?
+              </h1>
               <div className="subtitle">O que vai rolar</div>
             </div>
           </div>
@@ -19,11 +24,20 @@ function Local() {
           {/* items */}
           <div className="columns is-multiline">
             <div className="column is-centered">
-              <a rel="noopener noreferrer" href="https://goo.gl/maps/F24WyLGZPCMjNqhe9" target="_blank" className="box">
+              <a
+                rel="noopener noreferrer"
+                href="https://goo.gl/maps/gp1VkZ3xACD7RHeeA"
+                target="_blank"
+                className="box"
+              >
                 <div className="content">
-                  <b className="has-text-primary">SergipeTec</b> <br />
-                  Avenida José Conrado de Araújo, 731 <br />
-                  Rosa Elze, São Cristóvão - SE
+                  <b className="has-text-primary">
+                    Unit - Universidade Tiradentes
+                  </b>{" "}
+                  <br />
+                  Av. Murilo Dantas, 300
+                  <br />
+                  Farolândia, Aracaju - SE
                 </div>
               </a>
             </div>
